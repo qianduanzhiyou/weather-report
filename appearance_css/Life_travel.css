@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    min-width: 960px;
+}
+body{
+    background: blue;
+    font-size: 14px;
+    color: #222;
+    background: url('../picture_img/天气背景2.jpg') no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.streamer{
+    width: 500px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: 1000;
+    font-family: cursive;
+    text-align: center;
+    position: absolute;
+    top: -77px;
+    left: 490px;
+}
+.item_fir{
+    width: 260px;
+    height: 340px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+/* From uiverse.io by @alexmaracinaru */
+.card {
+width: 250px;
+height: 320px;
+color: white;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 5px;
+overflow: visible;
+margin: 40px;
+}
+
+.card .item {
+border-radius: 10px;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.item:hover {
+transform: scale(0.95);
+transition: all 0.3s;
+}
+
+.item .svg {
+width: 130px;
+height: 120px;
+margin-bottom: 7px;
+}
+
+.item--1 {
+background: #c7c7ff;
+}
+
+.item--2 {
+background: #ffd8be;
+}
+
+.item--3 {
+background: #a9ecbf;
+}
+
+.item--4 {
+background: #f3bbe1;
+}
+.item--5 {
+background: #0b06a3;
+}
+.item--6 {
+background: #09de17;
+}
+
+.quantity {
+font-size: 25px;
+font-weight: 600;
+}
+
+.text {
+font-size: 12px;
+font-family: inherit;
+font-weight: 600;
+}
+
+.text--1 {
+color: rgba(149,149,255,1);
+}
+
+.text--2 {
+color: rgba(252,161,71,1);
+}
+
+.text--3 {
+color: rgba(66,193,110,1);
+}
+
+.text--4 {
+color: rgba(220,91,183,1);
+}
+.text--5 {
+color: rgb(27, 92, 232);
+}
+.text--6 {
+
+color: rgb(18, 234, 65);
+}
+.frame{
+    width: 800px;
+    height:500px;
+    border-radius: 30px;
+    background: rgba(100,100,100,0.6);
+    position: absolute;
+    top: 20px;
+    right: 155px;
+    color: #ffff;
+    text-align: center;
+}
+.biao{
+    color: #ffff;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 62px;
+    left: 58px;
+}
+.biaoti{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wen{
+    color: #ffff;
+    font-size: 18px;
+    position: absolute;
+    top: 126px;
+    left: 54px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tie{
+    position: absolute;
+    top: 300px;
+    left:41px;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btni{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    cursor: pointer;
+}

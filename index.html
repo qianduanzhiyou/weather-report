@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天气查询</title>
+
+    <link rel="stylesheet" href="./appearance_css/content.css">
+    <script src="./behavior_js/libs/jQuery/jquery-3.6.1.js"></script>
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=CvZGjQFmZDTcng7uox6vaYNuqYueISS2">
+        </script>
+</head>
+
+<body>
+    <!--头部标签  -->
+    <header>
+        <h1>
+            <div style="font-family:cursive; color:white;"><b>❄ 梦想气象台 ❄</b></div>
+        </h1>
+        <!-- 搜索框 -->
+        <div id="weather_search">
+            <span><input placeholder="请输入你要查询的城市" type="text" id="text" required=""></span>
+            <span><button id="btn">
+                    立即查询
+                </button></span>
+        </div>
+        <div class="wen">
+            <img src="./picture_img/资讯.png" alt="">
+            <span>为梦想而生</span>
+        </div>
+    </header>
+    <section>
+
+        <div class="into_f">
+            <!-- 地图 -->
+            <div id="tain">
+                <div id="tainer"></div>
+            </div>
+            <ul class="ti">
+                <li class="yi"><button class="but1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span> 生活建议
+                    </button>
+                    <ul>
+                        <li><a id="sheng" href="#">生活出行建议</a></li>
+                        <li><a id="time" href="./time.html">日历和时钟</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="container">
+
+                <div>
+                    <img src="./picture_img/天气.png" class='Weather' alt="今天天气">
+                </div>
+                <div class="main_itua">
+                    <b class="bb">☀ ☁ ☂ ❄</b>
+                    <div>
+                        <div class="main_info">
+                            <span class="info int">城市</span>|<span class="info dag">202X-XX-XX</span>
+                            <span class="weather info">晴天</span>
+                        </div>
+                        <div class="more_info">今日温度:<span class="info dge">------</span>风力:<span
+                                class="info fle">------</span>
+                            空气质量:<span class="info pm">------</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="future_container">
+                <div class="future_box">
+                    <img src="./picture_img/晴.png" alt="天气" />
+                    <span class="future_info">201X-XX-XX</span>
+                    <span class="future_info">星期X</span>
+                    <span class="future_info">--</span><span class="future_info">12-16℃</span>
+                </div>
+                <div class="future_box">
+                    <img src="./picture_img/多云.png" alt="天气" />
+                    <span class="future_info">201X-XX-XX</span>
+                    <span class="future_info">星期X</span>
+                    <span class="future_info">--</span><span class="future_info">12-16℃</span>
+                </div>
+                <div class="future_box">
+                    <img src="./picture_img/雨.png" alt="天气" />
+                    <span class="future_info">201X-XX-XX</span>
+                    <span class="future_info">星期X</span>
+                    <span class="future_info">--</span><span class="future_info">12-16℃</span>
+                </div>
+                <div class="future_box">
+                    <img src="./picture_img/中雪.png" alt="天气" />
+                    <span class="future_info">201X-XX-XX</span>
+                    <span class="future_info">星期X</span>
+                    <span class="future_info">--</span><span class="future_info">12-16℃</span>
+                </div>
+                <div class="future_box">
+                    <img src="./picture_img/晴.png" alt="天气" />
+                    <span class="future_info">201X-XX-XX</span>
+                    <span class="future_info">星期X</span>
+                    <span class="future_info">--</span><span class="future_info">12-16℃</span>
+
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./behavior_js/content.js"></script>
+
+</body>
+
+</html>
